@@ -72,9 +72,9 @@ button { font: inherit; }
 .hero-note { position: absolute; left: 0; bottom: -34px; display: flex; align-items: center; gap: 14px; font-size: 12px; color: rgba(255,255,255,.5); }
 .note-line { width: 46px; height: 1px; background: currentColor; }
 .hero-visual { position: relative; z-index: 2; display: grid; place-items: center; min-width: 0; }
-.hero-arch { width: min(78%, 570px); height: min(73vh, 730px); overflow: hidden; border-radius: 48% 48% 3px 3px; box-shadow: 0 42px 90px rgba(0,0,0,.27); position: relative; border: 1px solid rgba(255,255,255,.15); }
+.hero-arch { width: min(78%, 570px); height: min(73vh, 730px); overflow: hidden; border-radius: 48% 48% 3px 3px; box-shadow: 0 42px 90px rgba(0,0,0,.27); position: relative; border: 1px solid rgba(255,255,255,.15); background: #f4eee8; }
 .hero-arch::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 48%, rgba(48,4,12,.48)); }
-.hero-arch img { height: 100%; object-fit: cover; object-position: center; transform: scale(1.03); }
+.hero-arch img { height: 100%; object-fit: cover; object-position: center; transform: scale(.92); }
 .hero-monogram { position: absolute; right: 3%; top: 8%; font: 600 150px/1 "Noto Kufi Arabic", sans-serif; color: rgba(255,255,255,.07); }
 .floating-card { position: absolute; left: 1%; bottom: 12%; padding: 18px 22px; background: rgba(255,250,240,.95); color: var(--wine-dark); min-width: 230px; box-shadow: var(--shadow); display: flex; gap: 16px; align-items: center; }
 .floating-card > span { font: 30px "DM Serif Display", serif; color: var(--gold); border-left: 1px solid #dccdb9; padding-left: 14px; }
